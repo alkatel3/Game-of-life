@@ -14,7 +14,14 @@ namespace GameOfLife.Tests
         [TestMethod()]
         public void SwitchValueTest()
         {
-            Assert.Fail();
+            var Cell = new Cell
+            {
+                Value = true
+            };
+
+            Cell.SwitchValue();
+
+            Assert.IsFalse(Cell.Value);
         }
     }
 }
