@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L+Z514g4A8ygIv/SY1Z7r42RUAKRcZri38gPBCDFWWmiVpQrslbTc+jfsFd4SdxlmiTrJHfgaMBfXQTYz0+ktQ==",
+  "dgSpecHash": "14bhlY5abLurPF/cZ7lyhhoyzJGL6WnLf3SXrM0pDLdQgHuIGtdB4nBIQf/iMIX9MijAasbAK0K40hgZYjBdPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dell\\source\\repos\\Game-of-life\\GameOfLifeTests\\GameOfLifeTests.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Source\\Repos\\Game-of-life\\GameOfLifeTests\\GameOfLifeTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

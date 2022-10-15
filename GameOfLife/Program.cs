@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Field field = new Field();
+            field.FillData("input.txt");
+            field.SetGeneration();
+            field.SetArrayDimensions();
+            field.FillingField();
+            field.ShowField();
+        
         }
     }
 }

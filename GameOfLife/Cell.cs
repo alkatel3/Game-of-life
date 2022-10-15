@@ -8,7 +8,12 @@ namespace GameOfLife
 {
     public class Cell
     {
-        public bool Value { get; set; }
+        public bool Value { get; private set; }
+
+        public Cell(bool value)
+        {
+            Value = value;
+        }
 
         public void SwitchValue()
         {
