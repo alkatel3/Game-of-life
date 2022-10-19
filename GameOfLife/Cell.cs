@@ -1,18 +1,33 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GameOfLife
+﻿namespace GameOfLife
 {
     public class Cell
     {
-        public bool Value { get; set; }
+        public bool CurrentValue { get; private set; }
+        public bool NextValue { get; private set; }
+
+
+        public Cell(bool value)
+        {
+            CurrentValue = value;
+            NextValue = value;
+        }
 
         public void SwitchValue()
         {
-            Value = !Value;
+            NextValue = !CurrentValue;
+        }
+
+        public override bool Equals(object? obj)
+        {
+            if (obj is Cell cell)
+            {
+                return cell.CurrentValue == CurrentValue;
+            }
+            return false;
+        }
+        public void ChangeCurrentValueToNextValue()
+        {
+            CurrentValue = NextValue;
         }
     }
 }

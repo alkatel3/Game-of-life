@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            FieldlLife life = new FieldlLife("input.txt");
+            life.FullLife();
+            WriteResultToFile.WriteToFile(life.field, "output.txt");
         }
     }
 }
